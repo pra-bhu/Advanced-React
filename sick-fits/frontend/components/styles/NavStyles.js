@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-const NavStyles = styled.ul`
+const NavStyles = styled.ul `
   margin: 0;
   padding: 0;
   display: flex;
@@ -35,7 +35,7 @@ const NavStyles = styled.ul`
     }
     &:after {
       height: 2px;
-      background: red;
+      background: ${props => props.theme.red};
       content: '';
       width: 0;
       position: absolute;
@@ -56,7 +56,7 @@ const NavStyles = styled.ul`
     }
     }
   }
-  @media (max-width: 1300px) {
+  @media (max-width: 1366px) {
     border-top: 1px solid ${props => props.theme.lightgrey};
     width: 100%;
     justify-content: center;
