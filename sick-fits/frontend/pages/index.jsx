@@ -1,8 +1,7 @@
-import Link from 'next/link'
-
+import Items from "../components/Items"
 const Home = () => (
     <div>
-      <h1>HELLO</h1>
+      <Items />
     </div>
   )
 

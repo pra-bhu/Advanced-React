@@ -39,6 +39,9 @@ injectGlobal`
   *, *:before, *:after {
     box-sizing: inherit;
   }
+  h1{
+    margin:0;
+  }
   body {
     padding: 0;
     margin: 0;

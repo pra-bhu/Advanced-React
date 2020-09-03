@@ -28,7 +28,7 @@ const Logo = styled.h1`
     background: ${props => props.theme.mainColor};
     color: whitesmoke;
   }
-  @media (max-width:1366px){
+  @media (max-width:1300px){
     margin:0;
     text-align : center;
   }
@@ -41,7 +41,7 @@ const StyledHeader = styled.header`
     grid-template-columns: auto 1fr;
     justify-content: space-between;
     align-items: stretch;
-    @media (max-width: 1366px) {
+    @media (max-width: 1300px) {
       grid-template-columns: 1fr;
       justify-content: center;
     }
